@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<hibernate-mapping>
+    <class name = "Person" table = "newemployeetable">
+      
+        <meta attribute = "class-description">
+           This class contains employee details. 
+        </meta>
+
+        <id name = "id" type = "int" column = "id">
+           <generator class="increment"/>
+        </id>
+    
+    <property name = "first" column = "first" type = "string"/>
+    <property name = "last" column = "last" type = "string"/>
+    <property name = "email" column = "email" type = "string"/>
+    <property name = "salary" column = "salary" type = "int"/>
+    <property name = "age" column = "age" type = "int"/>
+    
+    
+    </class>
+</hibernate-mapping> 

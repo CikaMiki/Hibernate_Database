@@ -1,0 +1,65 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 1, 2020, 3:32:29 PM
+    Author     : Miki
+*/
+body {
+    background-color: lightblue;
+}
+
+h1 {
+   text-transform: uppercase;
+   text-decoration: underline;
+}
+
+h1 {
+   text-align: left;
+   color: black; 
+   text-shadow: 3px 2px white;
+   font-size: 50px;
+   }
+
+p {
+   font-family:”Times New Roman”, Arial;
+   margin:10px 0 0 0;
+   color: white;
+   text-shadow: 1px 1px black;
+}
+
+/*centriranje teksta */    
+p {     
+   text-align: center;
+   margin-left: 200px;
+   margin-right: 200px;
+  }
+
+/* FOR THE SCROLL MENU */
+div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+/* FOR THE SCROLL MENU ^^ */
+
+.container {
+  display: block;
+  float: none;
+  width : 140px;
+}
+
